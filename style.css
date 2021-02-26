@@ -2,6 +2,7 @@
   width: 1440px;
   margin: auto;
   font-family: "Open Sans", sans-serif;
+  background-color: #cccccc;
 }
 .content {
   width: 1200px;
@@ -11,6 +12,9 @@
   background-image: url("images/back-header.png");
   height: 780px;
 }
+
+/* header */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -74,6 +78,9 @@ a:visited.header__menu_button {
   background: #8f5613;
   border: 2px solid #8f5613;
 }
+
+/* survival block */
+
 .survival {
   display: flex;
   flex-direction: column;
@@ -114,4 +121,61 @@ a:hover.survival__button-link {
 }
 a:visited.survival__button-link {
   background: #8f5613;
+}
+
+/* article */
+
+.latest-articles__heading {
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #333333;
+  margin-top: 120px;
+}
+.latest-articles__text {
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #666666;
+  margin-top: 20px;
+}
+.latest-articles__slider {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 120px;
+}
+.latest-articles__slider_image1 {
+  width: 300px;
+  height: 360px;
+  background-image: url("images/Deer.jpg");
+}
+.latest-articles__slider_image2 {
+  width: 300px;
+  height: 360px;
+  background-image: url("images/Squirrel.jpg");
+}
+.latest-articles__slider_image3 {
+  width: 300px;
+  height: 360px;
+  background-image: url("images/Bird.jpg");
+}
+.latest-articles__slider_small-heading {
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  color: #f7f7f7;
+  margin-top: 247px;
+}
+.latest-articles__slider_text {
+  font-size: 17px;
+  line-height: 27px;
+  text-align: center;
+  color: #f7f7f7;
+  margin-top: 10px;
+}
+path:hover {
+  fill: red;
+  cursor: pointer;
 }
