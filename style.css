@@ -18,6 +18,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  padding-top: 20px;
 }
 .header__logo {
   color: white;
@@ -27,7 +28,7 @@
   font-size: 32px;
   line-height: 60px;
   display: inline-block;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   display: flex;
   justify-content: space-between;
 }
@@ -38,7 +39,7 @@
   width: 480px;
   display: flex;
   flex-direction: row;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   align-items: center;
   text-align: center;
   justify-content: space-between;
@@ -74,7 +75,7 @@ a:hover.link-menu {
 a:hover.header__menu_button {
   background: #cd6326;
 }
-a:visited.header__menu_button {
+a:active.header__menu_button {
   background: #8f5613;
   border: 2px solid #8f5613;
 }
@@ -119,7 +120,7 @@ a:visited.header__menu_button {
 a:hover.survival__button-link {
   background: #e39128;
 }
-a:visited.survival__button-link {
+a:active.survival__button-link {
   background: #8f5613;
 }
 
@@ -178,4 +179,55 @@ a:visited.survival__button-link {
 path:hover {
   fill: red;
   cursor: pointer;
+}
+.get-notified__heading {
+  font-size: 27px;
+  line-height: 40px;
+  display: flex;
+  color: #333333;
+  width: 526px;
+  height: 41px;
+  margin: auto;
+  margin-top: 239px;
+}
+.get-notified__form {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 59px;
+  padding-bottom: 239px;
+}
+.get-notified__form_email {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  color: #666666;
+  background: #cccccc;
+  border: 1px solid #666666;
+  border-right: 0px;
+  width: 525px;
+  height: 56px;
+  padding-left: 15px;
+}
+.get-notified__form_submit {
+  width: 120px;
+  height: 60px;
+  background: #cd6326;
+  border: 1px solid #cd6326;
+  border-radius: 0px 5px 5px 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  color: #f7f7f7;
+}
+.get-notified__form_submit:hover {
+  background-color: #e39128;
+}
+.get-notified__form_submit:active {
+  background-color: #8f5613;
 }
