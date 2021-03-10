@@ -138,6 +138,11 @@ a:active.survival__button-link {
   color: #666666;
   margin-top: 20px;
 }
+.button {
+  border: none;
+  outline: none;
+  background-color: rgb(204, 204, 204);
+}
 .latest-articles__slider {
   display: flex;
   flex-direction: row;
