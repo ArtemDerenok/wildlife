@@ -9,7 +9,7 @@
   margin: auto;
 }
 .background {
-  background-image: url("images/back-header.png");
+  background-image: url("assets/back-header.png");
   height: 780px;
 }
 
@@ -153,17 +153,17 @@ a:active.survival__button-link {
 .latest-articles__slider_image1 {
   width: 300px;
   height: 360px;
-  background-image: url("images/Deer.jpg");
+  background-image: url("assets/Deer.jpg");
 }
 .latest-articles__slider_image2 {
   width: 300px;
   height: 360px;
-  background-image: url("images/Squirrel.jpg");
+  background-image: url("assets/Squirrel.jpg");
 }
 .latest-articles__slider_image3 {
   width: 300px;
   height: 360px;
-  background-image: url("images/Bird.jpg");
+  background-image: url("assets/Bird.jpg");
 }
 .latest-articles__slider_small-heading {
   font-size: 22px;
@@ -239,7 +239,7 @@ path:hover {
 /* footer */
 
 .container__footer {
-  background-image: url("images/footer-back.jpg");
+  background-image: url("assets/footer-back.jpg");
 }
 .footer__menu {
   display: flex;
